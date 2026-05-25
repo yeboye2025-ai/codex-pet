@@ -33,7 +33,7 @@ export function Dropzone({ onSelect }: DropzoneProps) {
     handleFile(event.target.files?.[0]);
   }
 
-  function handleDrop(event: DragEvent<HTMLLabelElement>) {
+  function handleDrop(event: DragEvent<HTMLDivElement>) {
     event.preventDefault();
     setIsDragging(false);
     handleFile(event.dataTransfer.files?.[0]);
