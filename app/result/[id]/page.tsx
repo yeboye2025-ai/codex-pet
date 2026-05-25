@@ -25,7 +25,7 @@ export default function ResultPage({
   }, [id]);
 
   if (!hasMounted) {
-    return <AppShell />;
+    return <AppShell>{null}</AppShell>;
   }
 
   if (!record) {
