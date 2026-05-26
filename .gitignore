@@ -17,3 +17,8 @@ yarn.lock
 pnpm-lock.yaml
 .turbo
 .superpowers
+.agents
+*.bundle
+*.zip
+tsconfig.tsbuildinfo
+skills-lock.json
